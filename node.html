@@ -6,7 +6,75 @@
     <link rel="stylesheet" href="aaa.css">
     <title>Mz简历</title>
     <style>
-       
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #f06, #ff9);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            transition: color 0.3s ease-in-out;
+        }
+        h1:hover {
+            color: #f06;
+        }
+        img {
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        img:hover {
+            transform: scale(1.1);
+        }
+        a {
+            color: #06f;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+        a:hover {
+            color: #f06;
+        }
+        hr {
+            width: 100%;
+            max-width: 600px;
+            border: none;
+            border-top: 2px solid #333;
+            margin: 20px 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease-in-out;
+        }
+        li:hover {
+            background: #f9f9f9;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 20px;
+            }
+            img {
+                width: 100%;
+                max-width: 200px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+        }
     </style>
 </head>
 <body>
@@ -15,15 +83,9 @@
 <b>链接：</b><a href="https://answer.baidu.com/answer/land?params=gto0OOF1gj552xIZA9d9wMm2LTiJLn4OgemGIrc4iJFNKHbg%2BuoDgpiJZM4F4bSjkB2vhxQ2ju%2BMs3ObXMywBue8L9kQhdZ81skqSpLbkCB8La9dNuOAjYfPEChreWUq7eMMZwhMjMvyAD8NezvwhyzNRZQh6ObY7Lhdmd11Gaz2R%2B1EqM4ZRhnXqkUbaAc%2FcDgv2AkWtLWVmugqO7E5mQ%3D%3D&from=dqa&lid=b2654c1d0000bfa0&word=%E8%90%A8%E6%91%A9%E8%80%B6%E4%B9%A0%E6%80%A7" target="_blank">了解习性</a>
 <hr>
 <ul>
-    <li> 
-        1
-    </li>
-    <li>
-        2
-    </li>
-    <li>
-        3
-    </li>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
 </ul>
 </body>
 </html>
