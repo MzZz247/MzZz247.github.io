@@ -1,0 +1,8 @@
+wechat-rss-bot/
+├── .github/
+│   └── workflows/
+│       └── fetch.yml
+├── fetch.py
+├── requirements.txt
+├── analysis.py
+└── README.md
